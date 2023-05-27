@@ -1,0 +1,30 @@
+.app-header {
+  background-color: $layoutColor;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.app-nav {
+  display: flex;
+  gap: 10px;
+  color: $navBtn;
+}
+
+.app-nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.app-nav a:hover {
+  color: #f70000;
+  text-decoration: solid;
+}

@@ -1,0 +1,63 @@
+// $primaryDetail: #888;
+
+// .toy-details {
+//   max-width: 800px;
+//   margin: auto;
+//   padding: 1rem;
+//   & h1 {
+//     font-size: 1.5rem;
+//     margin-bottom: 0.5rem;
+//   }
+//   & h5 {
+//     font-size: 1rem;
+//     color: $primaryDetail;
+//     margin-bottom: 1rem;
+//   }
+//   & p {
+//     font-size: 0.9rem;
+//     line-height: 1.5;
+//     margin-bottom: 1rem;
+//   }
+//   & .button-group {
+//     margin-top: 1rem;
+//   }
+//   & .button-group > * {
+//     margin-right: 0.5rem;
+//   }
+// }
+
+$primaryDetail: rgba(255, 0, 0, 0.44);
+
+.toy-details {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  & h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  & h5 {
+    font-size: 1.5rem;
+    color: $primaryDetail;
+    margin-bottom: 1.5rem;
+  }
+  & p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.button-group {
+  margin-top: 1.5rem;
+}
+
+.toy-details .button-group > * {
+  margin-right: 1rem;
+}
+
+.toy-img {
+  height: 300px;
+  width: auto;
+}

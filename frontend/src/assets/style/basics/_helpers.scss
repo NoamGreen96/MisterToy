@@ -1,0 +1,30 @@
+/* flex helpers */
+
+.flex {
+  display: flex;
+  &.flex-column {
+    flex-direction: column;
+  }
+  &.justify-center {
+    justify-content: center;
+  }
+  &.justify-between {
+    justify-content: space-between;
+  }
+  &.align-center {
+    align-items: center;
+  }
+}
+
+/* text helpers */
+$textColor: rgb(167, 151, 230);
+$layoutColor: #ffffff;
+$navBtn: rgba(255, 0, 0, 0.491);
+
+/* list helpers */
+
+.clean-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

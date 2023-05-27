@@ -1,0 +1,13 @@
+.app-footer {
+  background-color: $layoutColor;
+  text-align: center;
+  &p {
+    margin: 0;
+    color: #333;
+    font-size: 0.9rem;
+  }
+  .logo-footer {
+    height: 80px;
+    width: auto;
+  }
+}

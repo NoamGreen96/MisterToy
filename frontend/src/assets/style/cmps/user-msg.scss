@@ -1,0 +1,26 @@
+.user-msg {
+  background-color: #f8f8f8;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transition: opacity 0.3s ease;
+  font-family: Arial, sans-serif;
+  &.success {
+    background-color: #dff0d8;
+    border-color: #bbe5b3;
+  }
+  &.error {
+    background-color: #f2dede;
+    border-color: #e5b3b3;
+  }
+  & button {
+    float: right;
+    border: none;
+    background-color: transparent;
+    margin: 1em;
+  }
+}
